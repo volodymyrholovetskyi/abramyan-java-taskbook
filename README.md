@@ -11,6 +11,7 @@ algorithmic thinking, and writing clean, readable code.
 ## 🎯 Project Goals
 - Strengthen algorithmic problem-solving skills
 - Practice Java Core fundamentals
+- Practice writing tests
 - Develop structured and maintainable code
 - Demonstrate a consistent learning approach to employers
 
@@ -38,6 +39,9 @@ src/main/java/abramyan/
 ├── matrix/
 ├── strings/
 └── functions/
+
+src/test/java/abramyan/
+└── begin/
 ```
 ---
 
@@ -45,6 +49,7 @@ src/main/java/abramyan/
 - **Java 21+**
 - Standard Java Library
 - Console input/output
+- JUnit 5
 
 ---
 
