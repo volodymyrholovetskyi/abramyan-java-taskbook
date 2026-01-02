@@ -33,7 +33,7 @@ public class Begin2 {
         System.out.println(calculateArea(a));
     }
 
-    private static int calculateArea(int a) {
+    public static int calculateArea(int a) {
         return a * a;
     }
 }
