@@ -24,8 +24,8 @@ import static abramyan.utils.InputReader.nextInt;
  * Complexity:
  * O(1)
  * <p>
- * Author:
- * Volodymyr Holovetskyi
+ *
+ * @author Volodymyr Holovetskyi
  */
 public class Begin3 {
 
