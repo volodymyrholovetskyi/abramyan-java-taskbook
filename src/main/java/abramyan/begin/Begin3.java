@@ -36,11 +36,11 @@ public class Begin3 {
         System.out.println(calculatePerimeter(a, b));
     }
 
-    private static int calculateArea(int a, int b) {
+    public static int calculateArea(int a, int b) {
         return a * b;
     }
 
-    private static int calculatePerimeter(int a, int b) {
+    public static int calculatePerimeter(int a, int b) {
         return 2 * (a + b);
     }
 }
