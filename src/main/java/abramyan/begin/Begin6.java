@@ -25,7 +25,7 @@ import static abramyan.utils.InputReader.nextInt;
  * O(1)
  *
  * Author:
- * Your Name
+ * Holovetskyi Volodymyr
  */
 public class Begin6 {
 
