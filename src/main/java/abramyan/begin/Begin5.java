@@ -36,7 +36,7 @@ public class Begin5 {
         System.out.println(calculateSurfaceArea(a));
     }
 
-    private static double calculateVolume(int a) {
+    private static int calculateVolume(int a) {
         return a * a * a;
     }
 
