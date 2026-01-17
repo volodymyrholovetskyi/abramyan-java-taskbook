@@ -36,6 +36,6 @@ public class Begin31 {
     }
 
     private static double convertFahrenheitToCelsius(double fahrenheit) {
-        return (fahrenheit - 32) / 5.0 / 9.0;
+        return (fahrenheit - 32) * 5.0 / 9.0;
     }
 }
