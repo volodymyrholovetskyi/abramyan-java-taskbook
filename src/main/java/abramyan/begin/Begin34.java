@@ -48,5 +48,19 @@ public class Begin34 {
         // TODO: calculate price ratio
 
         // TODO: print results
+        double pricePerKilogramCandies = calculatePricePerKilogram(x, a);
+        double pricePerKilogramToffee = calculatePricePerKilogram(x, a);
+        double costForYKilograms = calculateCostForYKilograms(pricePerKilogram, y);
+
+        System.out.println(pricePerKilogram);
+        System.out.println(costForYKilograms);
+    }
+
+    private static double calculatePricePerKilogram(double x, double a) {
+        return a / x;
+    }
+
+    private static double calculateCostForYKilograms(double pricePerKilogram, double y) {
+        return pricePerKilogram * y;
     }
 }
