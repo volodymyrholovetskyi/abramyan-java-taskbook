@@ -41,26 +41,20 @@ public class Begin34 {
         double y = nextDouble();
         double b = nextDouble();
 
-        // TODO: calculate price per kg of chocolate candies
+        double priceCandies = calculatePricePerKilogram(x, a);
+        double priceToffee = calculatePricePerKilogram(y, b);
+        double priceRatio = calculatePriceRatio(priceCandies, priceToffee);
 
-        // TODO: calculate price per kg of toffee
-
-        // TODO: calculate price ratio
-
-        // TODO: print results
-        double pricePerKilogramCandies = calculatePricePerKilogram(x, a);
-        double pricePerKilogramToffee = calculatePricePerKilogram(x, a);
-        double costForYKilograms = calculateCostForYKilograms(pricePerKilogram, y);
-
-        System.out.println(pricePerKilogram);
-        System.out.println(costForYKilograms);
+        System.out.println(priceCandies);
+        System.out.println(priceToffee);
+        System.out.println(priceRatio);
     }
 
     private static double calculatePricePerKilogram(double x, double a) {
         return a / x;
     }
 
-    private static double calculateCostForYKilograms(double pricePerKilogram, double y) {
-        return pricePerKilogram * y;
+    private static double calculatePriceRatio(double priceCandies, double priceToffee) {
+        return priceCandies / priceToffee;
     }
 }
