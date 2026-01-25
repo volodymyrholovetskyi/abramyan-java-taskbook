@@ -36,7 +36,7 @@ public class Series2 {
     }
 
     private static double calculateSum() {
-        double result = 0.0;
+        double result = 1.0;
 
         for (int i = 0; i < COUNT; i++) {
             double value = nextDouble();
