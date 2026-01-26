@@ -1,7 +1,5 @@
 package abramyan.series;
 
-import java.util.Scanner;
-
 import static abramyan.utils.InputReader.nextDouble;
 
 /**
@@ -31,11 +29,11 @@ public class Series2 {
     private static final int COUNT = 10;
 
     public static void main(String[] args) {
-        double sum = calculateSum();
+        double sum = calculateProduct();
         System.out.println(sum);
     }
 
-    private static double calculateSum() {
+    private static double calculateProduct() {
         double result = 1.0;
 
         for (int i = 0; i < COUNT; i++) {
